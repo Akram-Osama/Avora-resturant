@@ -971,4 +971,9 @@ img {
         justify-self: start;
     }
 
+    .footer-top .footer-socials {
+        grid-column: 1 / -1;
+        justify-self: start;
+    }
+
 }
