@@ -21,7 +21,7 @@ if (menuToggle && nav) {
 }
 
 const revealElements = document.querySelectorAll(
-    ".section > *, .dish-card, .footer-top, .footer-bottom"
+    ".section > *, .dish-card, .footer-top"
 );
 
 if (
