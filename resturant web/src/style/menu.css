@@ -981,7 +981,8 @@ img {
     }
 
     .card-image {
-        height: 250px;
+        height: auto;
+        aspect-ratio: 1;
     }
 
     .card-info {
@@ -1099,7 +1100,7 @@ img {
     /* footer */
 
     .footer {
-        padding: 45px 20px 25px;
+        padding: 45px 20px 12px;
     }
 
     .footer-top {
@@ -1123,12 +1124,6 @@ img {
         flex-direction: column;
 
         gap: 20px;
-    }
-
-    .footer-bottom div {
-        flex-wrap: wrap;
-
-        gap: 18px;
     }
 
 }
